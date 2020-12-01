@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap');
+
+#container{
+    display:flex;
+    flex-direction: column;
+    background-color:#32213a;
+    background-image: url('images/45-degree-fabric-light.png');
+    background-repeat: repeat;
+    background-position: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+header{
+    display: flex; flex-direction: row;
+    width:100%; height:200px;
+    filter: drop-shadow(5px 5px 5px #231729);  
+    padding-left:200px; padding-bottom:25px;
+}
+header h1{
+    font-family: 'Quattrocento', serif;
+    color: #f9e4b3; font-size: 1.55vw;
+    float:right; padding-right:250px;
+    padding-top: 180px;
+  
+}
+nav{
+    width: 100%;
+    background: #32213a;
+    font-family:'Noto Sans', sans-serif; color:#f9e4b3;
+    z-index: 99999;padding-left:150px;
+}
+nav ul {
+	background: #32213a;
+    list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+		display: block;
+}
+
+nav ul li {
+	float: left;
+    
+}
+nav ul li:hover {
+    background: #383b53;border-radius: 10px;
+}
+nav ul li:hover a {
+    color: #fff;border-radius: 10px;
+}
+	
+nav ul li a {
+    display: block; padding: 15px 35px;
+    text-decoration: none;color:#f9e4b3;font-size:1.25vw
+}
+nav ul ul {
+	background: #383b53; border-radius: 10px; padding: 0;
+	position: absolute; top: 100%;
+}
+nav ul ul li {
+    float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+nav ul ul li a {
+    color:#f9e4b3;padding: 15px 15px;
+}	
+nav ul ul li a:hover {
+    background: #383b53;
+}
+
+/*.navbar {
+    background-color: #32213a;
+    top: 0; 
+    width:100%;
+    display:flex;   
+}
+.navbar a {
+    font-family: 'Noto Sans', sans-serif; font-size: 1.1vw;
+    display:block;
+    color: #f9e4b3;
+text-align: center;
+    padding: 13px 40px 16px 40px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #383b53;
+    color: #dba343;
+}
+*/
+
+#feature{
+    width:100%; height:300px;
+    display:flex;flex-flow: column;
+    background-color: #231729;
+    filter: drop-shadow(5px 5px 5px #231729);  
+    background-image: url(images/instruments.jpg); background-position: center; background-size: cover;
+    text-align: center; 
+    padding-top: 75px;
+    
+}
+h1{
+    font-family: 'Quattrocento', serif;
+    color: #f9e4b3; font-size: 4vw; text-shadow: 2px 2px 3px #231729;
+}
+h2{
+    font-family: 'Quattrocento', serif;
+    color: #f9e4b3; font-size: 4vw;
+    margin:25px; text-shadow: 2px 2px 3px #231729;
+}
+h3{
+    font-family: 'Quattrocento', serif;
+    color: #f9e4b3; font-size: 2.2vw;
+    margin:25px; text-shadow: 2px 2px 3px #231729;    
+}
+h4{
+    font-family:'Noto Sans', sans-serif; font-size:2vw; color: #f9e4b3;text-shadow: 2px 2px 3px #231729;
+}
+    
+p{
+    font-family:'Noto Sans', sans-serif;color:#f9e4b3;   
+}
+
+#feature a{
+    font-family: 'Quattrocento', serif; font-size: 4.5vw; font-weight: 700; font-style: italic;
+    color: #f9e4b3; text-decoration: none; text-shadow: 2px 2px 3px #231729;
+}
+#feature a:hover{
+    color: #dba343;
+}
+
+article{
+    width:100%;
+    display:flex; flex-direction: row;
+}
+article a{
+    font-family: 'Noto Sans', sans-serif; font-size: 2vw;color:#f9e4b3;text-shadow: 2px 2px 3px #231729;
+    text-decoration: none; text-align: center;align-items: center;
+}
+
+#highlight1, #highlight2, #highlight3, #highlight4{
+    width: 23%; height:300px;
+    margin:25px;
+    filter: drop-shadow(5px 5px 5px #231729);
+    border-radius: 3px;
+    padding:5px;
+    text-align: center;
+}
+
+#highlight1{
+    background-image:url(images/saxgirl2.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+#highlight2{
+    background-image:url(images/violin.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+#highlight3{
+    background-image:url(images/rooftop.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+#highlight4{
+    background-image:url(images/celloteens4.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+
+footer{
+    width:100%;
+    display: flex; flex-direction: row;
+    background-color: #32213a;
+    font-family: 'Noto Sans', sans-serif; color:#f9e4b3; 
+    align-items: center; justify-content: center;
+   
+}
+footer a{
+    padding: 8px 30px 10px 30px;
+    font-family: 'Noto Sans', sans-serif; font-size: 1vw; font-weight: 800; text-decoration: none; color:#f9e4b3; 
+}
+footer a:hover{
+    background: #383b53;
+    color: #dba343;
+}
+footer h2{
+    padding: 8px 30px 10px 30px;
+    font-family: 'Noto Sans', sans-serif; font-size: 1vw; font-weight: 800; text-decoration: none; color:#f9e4b3; margin:0;
+}

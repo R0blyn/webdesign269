@@ -1,0 +1,35 @@
+#featureevents{
+    width:100%; height:300px;
+    display:flex;flex-flow: column;
+    background-color: #231729;
+    filter: drop-shadow(5px 5px 5px #231729);  
+    background-image: url(images/conductor.jpg); background-position: center; background-size: cover;
+    text-align: center; 
+    padding-top: 75px;
+    
+}
+
+#calendar, #familyevents, #specialguests, #rooftop{
+    width: 23%; height:300px;
+    margin:25px;
+    filter: drop-shadow(5px 5px 5px #231729);
+    border-radius: 3px;
+    padding:5px; text-align: center
+}
+
+#calendar{
+    background-image:url(images/calendarimage.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+#familyevents{
+    background-image:url(images/celloteens4.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+#specialguests{
+    background-image:url(images/cellowoman.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
+#rooftop{
+    background-image:url(images/rooftop.jpg);
+    background-position: center; background-size: cover;background-repeat: no-repeat;
+}
